@@ -4,7 +4,7 @@ import requests  # Importa requests para fazer requisições HTTP
 # Cria o objeto da aplicação Flask
 app = Flask(__name__)
 
-# Define a rota para a página inicial "/"
+# Define a rota para a página inicial ."/"
 @app.route('/')
 def home():
     # Retorna o arquivo HTML chamado index.html da pasta templates
